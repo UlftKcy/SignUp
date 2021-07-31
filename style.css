@@ -29,6 +29,9 @@ h2 {
 .sign {
   font-weight: 600;
 }
+a{
+  color: #675CD8;
+}
 form {
   margin-top: 20px;
   display: flex;
@@ -61,14 +64,14 @@ input {
 }
 .btn {
   width: 100%;
-  background-color: #4796ff;
+  background-color: #675CD8;
   color: #ffff;
   font-size: 1.2rem;
   border-radius: 10px;
   padding: 12px 6px;
 }
 .btn:hover {
-  background-color: #3789f3;
+  background-color:#4a3fc2;
   color: #ffff;
 }
 @media (max-width: 500px) {
