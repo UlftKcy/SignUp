@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- sweetalert bağlantısı-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up Page</title>
+  </head>
+
+  <body>
+    <div id="form-container">
+      <div class="form-header">
+        <h2>Create Account</h2>
+        <span>Already have an account?</span>
+        <a href="#" class="sign">Sign in</a>
+      </div>
+      <form action="#" method="POST">
+        <div class="box">
+          <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            autocomplete="off"
+            id="userName"
+          />
+        </div>
+        <div class="names">
+          <div class="first-name">
+            <input
+              type="text"
+              name="firstname"
+              placeholder="First name"
+              autocomplete="off"
+              id="firstName"
+            />
+          </div>
+          <div class="last-name">
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Last name"
+              autocomplete="off"
+              id="lastName"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            autocomplete="off"
+            id="email"
+          />
+        </div>
+        <div class="box">
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            autocomplete="off"
+            id="password"
+          />
+        </div>
+        <div class="signUp">
+          <input type="submit" value="Sign up" class="btn" />
+        </div>
+        <br />
+        <div class="errors"></div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
